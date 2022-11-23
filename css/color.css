@@ -1,0 +1,17 @@
+:root {
+    --bege: #F2EADF;
+    --orange: #FD7A39;
+    --pink: #FE51B0;
+    --lilac: #E2C1F3;
+    --green: #00C69E;
+    --gradient: conic-gradient(from -48.11deg at 57.83% -46.75%,
+    rgba(253, 122, 57, 0.18) -11.03deg,
+    rgba(226, 193, 243, 0.18) 24.07deg,
+    #1E1E1E 51.03deg,
+    rgba(253, 122, 57, 0.18) 161.21deg, 
+    #F2EADF 179.87deg,
+    rgba(0, 198, 158, 0.489916) 208.57deg,
+    rgba(254, 81, 176, 0.48) 332.03deg,
+    rgba(253, 122, 57, 0.18) 348.97deg, 
+    rgba(226, 193, 243, 0.18) 384.07deg);
+}

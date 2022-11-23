@@ -1,0 +1,19 @@
+@import "color.css";
+@import "fonts/Kostania-Bold.ttf";
+
+@font-face {
+    font-family: 'Kostania';
+    src: url('Kostania-Bold.ttf') format('truetype');
+}
+
+body {
+    background: var(--bege);
+}
+
+nav a {
+    font-family: 'Kostania', sans-serif;  
+}
+
+.kostania {
+    font-family: 'Kostania', sans-serif;
+}
