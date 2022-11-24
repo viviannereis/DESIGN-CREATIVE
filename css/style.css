@@ -6,7 +6,16 @@
     src: url('Kostania-Bold.ttf') format('truetype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background: var(--bege);
+    color: #201d2d;
+}
+
+nav {
     background: var(--bege);
 }
 
@@ -14,6 +23,57 @@ nav a {
     font-family: 'Kostania', sans-serif;  
 }
 
+h1, h2, h3 {
+    font-family: 'Kostania', sans-serif;
+}
+
 .kostania {
     font-family: 'Kostania', sans-serif;
+}
+
+.bg-gradient {
+    background-image: url(/img/background/bg-gradient.jpg);
+}
+
+.bg-pink {
+    background: var(--pink);
+}
+
+.bg-orange {
+    background: var(--orange);
+}
+
+.bg-lilac {
+    background: var(--lilac);
+}
+
+.bg-green {
+    background: var(--green);
+    border-top-right-radius: 300px;
+}
+
+.section-info {
+    background: var(--gradient);
+    padding: 2rem;
+} 
+
+.line-text {
+    padding: 5px;
+    position: relative;
+    top: -2rem;
+}
+
+/**** Portifolio ****/
+#portifolio {
+    background: var(--lilac);
+}
+
+/**** Contato ****/
+#contato {
+    
+}
+
+input {
+    background: #f4f4f4;
+    border: none;
 }
