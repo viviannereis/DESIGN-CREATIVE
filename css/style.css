@@ -1,5 +1,6 @@
 @import "color.css";
 @import "fonts/Kostania-Bold.ttf";
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,400&display=swap');
 
 @font-face {
     font-family: 'Kostania';
@@ -8,6 +9,7 @@
 
 html {
     scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif !important;
 }
 
 body {
@@ -32,7 +34,22 @@ h1, h2, h3 {
 }
 
 .bg-gradient {
-    background-image: url(/img/background/bg-gradient.jpg);
+    /*background-image: url(/img/background/bg-gradient.jpg);*/
+    background: linear-gradient(-75deg, #F2EADF, #FD7A39, #F2EADF, #00C69E,#E2C1F3, #FE51B0, #E2C1F3, #F2EADF, #00C69E );
+	background-size: 400% 400%;
+	animation: gradient 65s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 40%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 .bg-pink {
