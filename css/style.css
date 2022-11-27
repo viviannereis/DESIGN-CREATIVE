@@ -37,7 +37,7 @@ h1, h2, h3 {
     /*background-image: url(/img/background/bg-gradient.jpg);*/
     background: linear-gradient(-75deg, #F2EADF, #FD7A39, #F2EADF, #00C69E,#E2C1F3, #FE51B0, #E2C1F3, #F2EADF, #00C69E );
 	background-size: 400% 400%;
-	animation: gradient 65s ease infinite;
+	animation: gradient 55s ease infinite;
 }
 
 @keyframes gradient {
@@ -93,4 +93,14 @@ h1, h2, h3 {
 input {
     background: #f4f4f4;
     border: none;
+}
+
+.triangulo {
+    clip-path: polygon(50% 100%, 0 29%, 100% 30%);
+    background: var(--green);
+    padding: 1rem;
+    width: 10%;
+    height: 50px;
+    position: relative;
+    top: -3rem;
 }
