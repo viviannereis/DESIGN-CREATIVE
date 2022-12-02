@@ -104,3 +104,49 @@ input {
     position: relative;
     top: -3rem;
 }
+
+/*** Progress Bar ***/
+.progress {
+    background: var(--bege);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 15px;
+    width: 250px;
+}
+  
+.progress-value {
+    animation: load 3s normal forwards;
+    box-shadow: 0 10px 40px -10px var(--orange);
+    border-radius: 100px;
+    background: var(--orange);
+    height: 10px;
+    width: 0;
+}
+  
+@keyframes load {
+    0% { width: 0; }
+    100% { width: 68%; }
+}
+
+.bounce {
+    animation: bounce 2s ease infinite;
+}
+  @keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+.bounce2 {
+    animation: bounce 4s ease infinite;
+}
+  @keyframes bounce2 {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
